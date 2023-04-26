@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>OTA - Online Travel Booking System</title>
+    <link rel="icon" href="https://img.freepik.com/free-vector/earth-globe-airplane_1308-28892.jpg?w=996&t=st=1682528167~exp=1682528767~hmac=6a1f8b214b4163c7bdb32a3485fe9d20f5db0334cc1894117ee6dcd401d978a6">
+	<link rel="stylesheet" href="murthy.css">
+</head>
+<body>
+    <section class="search">
+        <h2>Search for Flights and Hotels</h2>
+        <form>
+            <label>From: <input type="text" name="from"></label>
+            <br>
+
+            <label>To:<input type="text" name="to"></label>
+            <br>
+
+            <label>Departure Date:<input type="date" name="departure"></label>
+            <br>
+
+            <label>Return Date:<input type="date" name="return"></label>
+            <br>
+
+            <br><button>submit</button>
+        </form>
+    </section>
+
+    <section class="results">
+        <h2>Search Results</h2>
+        <ul1 class="app">
+            <li>
+                <a href="#">
+                    <img src=".jpg" alt="Flight 1">
+                    <h3>Flight 1</h3>
+                    <p>$500.00</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="flight2.jpg" alt="Flight 2">
+                    <h3>Flight 2</h3>
+                    <p>$600.00</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="hotel1.jpg" alt="Hotel 1">
+                    <h3>Hotel 1</h3>
+                    <p>$100.00/night</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="hotel2.jpg" alt="Hotel 2">
+                    <h3>Hotel 2</h3>
+                    <p>$120.00/night</p>
+                </a>
+            </li>
+        </ul1>
+    </section>
+
+    <section class="booking">
+        <h2>Booking</h2>
+        <form>
+            <label>Name:</label>
+            <input type="text" name="name"><br>
+
+            <label>Email:</label>
+            <input type="email" name="email"><br>
+
+            <label>Phone:</label>
+            <input type="tel" name="phone"><br>
+
+            <label>Payment Method:</label>
+            <select name="payment">
+                <option value="credit">Credit Card</option>
+                <option value="debit">Debit Card</option>
+        <label>Card Number:</label>
+        <input type="text" name="card"><br>
+
+        <label>Expiration Date:</label>
+        <input type="month" name="expiration"><br>
+
+        <label>CVC:</label>
+        <input type="text" name="cvc"><br>
+
+        <input type="submit" value="Book">
+    </form>
+<button><a href="murthy.html">BACK</a></button>
+</section>
+</body>
+</html>

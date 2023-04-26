@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url("https://img.freepik.com/free-vector/earth-globe-airplane_1308-28892.jpg?w=996&t=st=1682528167~exp=1682528767~hmac=6a1f8b214b4163c7bdb32a3485fe9d20f5db0334cc1894117ee6dcd401d978a6");
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    overflow:hidden;   
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size:50px;
+    color: rgb(2, 47, 47);
+    font-family:'Times New Roman', Times, serif;
+   
+}
+
+marquee{
+    background-color: salmon ;
+    border-radius: 20px;
+}
+
+ul{
+    display: flex;
+    justify-content:space-around;
+    padding: 5px ;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    color:blueviolet;
+    font-size: 50px;
+}
+p{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+form{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+.results li{
+    box-sizing: border-box;
+    width: 50%;
+    border: 10px 10px;
+
+    border-radius: 10px;
+    background-color: rgba(100, 188, 188, 0.559);
+   
+    justify-content: center;
+}
+
+.booking h2{
+    display: flex;
+    justify-content: center;
+}
+button{
+    
+    display: flex;
+    
+    position: relative;
+    left: 600px;
+}
+.app{
+    position: relative;
+    left: 300px;
+}
+
